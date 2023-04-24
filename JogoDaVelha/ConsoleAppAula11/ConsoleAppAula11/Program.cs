@@ -15,8 +15,8 @@ namespace ConsoleAppAula11
                 Console.Clear();
                 Console.WriteLine("Digite 1 para jogar com outro Player");
                 Console.WriteLine("Insira 2 para jogar com o computador");
-                Console.WriteLine("Insira 3 para jogar com o computador Hard:");// o computador ira escolher ou impedir jogadas vitoriosas laterais(apenas nas laterais)
-                Console.WriteLine("Insira 4 para jogar com o computador Extreme:");// Dificuldade extremamente elevada
+                Console.WriteLine("Insira 3 para jogar com o computador bom:");// o computador ira escolher ou impedir jogadas vitoriosas laterais(apenas nas laterais)
+                Console.WriteLine("Insira 4 para jogar com o computador muito bom:");// Dificuldade extremamente elevada, detecta toda jogada vitoriosa, ainda nao faz sempre a melhor jogada possivel.
                 Console.WriteLine("Insira 5 para finalizar o programa:");
 
                 int opcao;
@@ -133,7 +133,7 @@ namespace ConsoleAppAula11
                             Console.WriteLine();
                             Console.WriteLine();
                         }
-                        if((matriz[0, 1] == matriz[1, 1] && matriz[0, 1] == matriz[2, 1] && matriz[0, 1] != '.') ||// verifica vitoria
+                        if ((matriz[0, 1] == matriz[1, 1] && matriz[0, 1] == matriz[2, 1] && matriz[0, 1] != '.') ||// verifica vitoria
                             (matriz[1, 0] == matriz[1, 1] && matriz[1, 0] == matriz[1, 2] && matriz[1, 0] != '.') ||
                             (matriz[0, 0] == matriz[1, 0] && matriz[0, 0] == matriz[2, 0] && matriz[0, 0] != '.') ||
                             (matriz[2, 0] == matriz[2, 1] && matriz[2, 0] == matriz[2, 2] && matriz[2, 0] != '.') ||
@@ -184,7 +184,7 @@ namespace ConsoleAppAula11
                 // O jogador sempre sera 'X' e o computador sempre sera 'O';
                 for (contador = 0; contador < 9; contador++)//inicio
                 {
-                
+
                     if (contador % 2 == 0)//verifica quem vai jogar (comecando pelo computador)
                     {
                         linha = rnd.Next(0, 3);
@@ -304,7 +304,7 @@ namespace ConsoleAppAula11
 
         static void Pc()//timer para melhorar a jogabilidade
         {
-           
+
             Console.WriteLine("Digite ENTER para confimar a jogada do computador...");
             Console.ReadLine();//sai do timer e da clear
         }
@@ -330,16 +330,16 @@ namespace ConsoleAppAula11
 
                 // O jogador sempre sera 'X' e o computador sempre sera 'O';
                 for (contador = 0; contador < 9; contador++)//inicio
-                {   
-                    if(contador == 0)
+                {
+                    if (contador == 0)
                     {
-                        matriz[2, 0]= 'O';
+                        matriz[2, 0] = 'O';
                         Console.WriteLine($"O computador jogou na posicao 2,0");
                     }
 
-                    else if (contador % 2 == 0 && contador !=0)//verifica quem vai jogar (comecando pelo computador)
+                    else if (contador % 2 == 0 && contador != 0)//verifica quem vai jogar (comecando pelo computador)
                     {
-                        if((matriz[2, 0] == matriz[1, 0] && matriz[2, 0] != '.' && matriz[0,0] == '.'))
+                        if ((matriz[2, 0] == matriz[1, 0] && matriz[2, 0] != '.' && matriz[0, 0] == '.'))
                         {
                             matriz[0, 0] = 'O';
                             Console.WriteLine("O computador jogou na posicao 0,0");
@@ -606,7 +606,7 @@ namespace ConsoleAppAula11
                             Console.WriteLine("O computador jogou na posicao 2,2");
                             Pc();
                         }
-                        else if ((matriz[2, 0] == matriz[1, 1] && matriz[2,0] != '.' && matriz[0, 2] == '.'))
+                        else if ((matriz[2, 0] == matriz[1, 1] && matriz[2, 0] != '.' && matriz[0, 2] == '.'))
                         {
                             matriz[0, 2] = 'O';
                             Console.WriteLine("O computador jogou na posicao 2,2");
@@ -642,7 +642,7 @@ namespace ConsoleAppAula11
                             Console.WriteLine("O computador jogou na posicao 2,2");
                             Pc();
                         }
-                        else if ((matriz[2, 2] == matriz[1, 1] && matriz[2, 2] != '.' && matriz[0 , 0] == '.'))
+                        else if ((matriz[2, 2] == matriz[1, 1] && matriz[2, 2] != '.' && matriz[0, 0] == '.'))
                         {
                             matriz[0, 0] = 'O';
                             Console.WriteLine("O computador jogou na posicao 2,2");
@@ -755,4 +755,3 @@ namespace ConsoleAppAula11
         }
     }
 }
-

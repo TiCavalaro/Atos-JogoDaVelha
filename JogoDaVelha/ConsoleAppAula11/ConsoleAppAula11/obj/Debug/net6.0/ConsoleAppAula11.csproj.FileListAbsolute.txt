@@ -13,33 +13,3 @@ C:\Users\João\source\repos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\r
 C:\Users\João\source\repos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.pdb
 C:\Users\João\source\repos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.genruntimeconfig.cache
 C:\Users\João\source\repos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ref\ConsoleAppAula11.dll
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.exe
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.deps.json
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.runtimeconfig.json
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.dll
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.pdb
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.csproj.AssemblyReference.cache
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.GeneratedMSBuildEditorConfig.editorconfig
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.AssemblyInfoInputs.cache
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.AssemblyInfo.cs
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.csproj.CoreCompileInputs.cache
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.dll
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\refint\ConsoleAppAula11.dll
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.pdb
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.genruntimeconfig.cache
-D:\Desktop\Ex Atos\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ref\ConsoleAppAula11.dll
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.exe
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.deps.json
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.runtimeconfig.json
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.dll
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\bin\Debug\net6.0\ConsoleAppAula11.pdb
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.csproj.AssemblyReference.cache
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.GeneratedMSBuildEditorConfig.editorconfig
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.AssemblyInfoInputs.cache
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.AssemblyInfo.cs
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.csproj.CoreCompileInputs.cache
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.dll
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\refint\ConsoleAppAula11.dll
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.pdb
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ConsoleAppAula11.genruntimeconfig.cache
-D:\Desktop\JogoDaVelha\ConsoleAppAula11\ConsoleAppAula11\obj\Debug\net6.0\ref\ConsoleAppAula11.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\JogoDaVelha\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj": {}
+    "C:\\Users\\João\\source\\repos\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\JogoDaVelha\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj": {
+    "C:\\Users\\João\\source\\repos\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\JogoDaVelha\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj",
+        "projectUniqueName": "C:\\Users\\João\\source\\repos\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj",
         "projectName": "ConsoleAppAula11",
-        "projectPath": "D:\\Desktop\\JogoDaVelha\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj",
+        "projectPath": "C:\\Users\\João\\source\\repos\\ConsoleAppAula11\\ConsoleAppAula11\\ConsoleAppAula11.csproj",
         "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\JogoDaVelha\\ConsoleAppAula11\\ConsoleAppAula11\\obj\\",
+        "outputPath": "C:\\Users\\João\\source\\repos\\ConsoleAppAula11\\ConsoleAppAula11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
