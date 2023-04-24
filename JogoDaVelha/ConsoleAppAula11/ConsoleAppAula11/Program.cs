@@ -14,9 +14,9 @@ namespace ConsoleAppAula11
             {
                 Console.Clear();
                 Console.WriteLine("Digite 1 para jogar com outro Player");
-                Console.WriteLine("Insira 2 para jogar com o computador");
-                Console.WriteLine("Insira 3 para jogar com o computador bom:");// o computador ira escolher ou impedir jogadas vitoriosas laterais(apenas nas laterais)
-                Console.WriteLine("Insira 4 para jogar com o computador muito bom:");// Dificuldade extremamente elevada, detecta toda jogada vitoriosa, ainda nao faz sempre a melhor jogada possivel.
+                Console.WriteLine("Insira 2 para jogar com o computador easy");
+                Console.WriteLine("Insira 3 para jogar com o computador medium:");// o computador ira escolher ou impedir jogadas vitoriosas laterais(apenas nas laterais)
+                Console.WriteLine("Insira 4 para jogar com o computador hard:");// Dificuldade extremamente elevada, detecta toda jogada vitoriosa, ainda nao faz sempre a melhor jogada possivel.
                 Console.WriteLine("Insira 5 para finalizar o programa:");
 
                 int opcao;
@@ -26,22 +26,22 @@ namespace ConsoleAppAula11
                     {
                         case 1:
                             Player();//faz o contra jogador
-                            Contador(); // timer
+                            Console.ReadLine();
                             Console.Clear(); //reseta
                             break;
                         case 2:
                             Computador();//contra o pc
-                            Contador();//timer
+                            Console.ReadLine();
                             Console.Clear();// clear
                             break;
                         case 3:
                             ComputadorHard();//contra o pc
-                            Contador();//timer
+                            Console.ReadLine();
                             Console.Clear();// clear
                             break;
                         case 4:
                             ComputadorExtreme();//contra o pc
-                            Contador();//timer
+                            Console.ReadLine();
                             Console.Clear();// clear
                             break;
                         case 5:
@@ -379,25 +379,25 @@ namespace ConsoleAppAula11
                         else if ((matriz[2, 0] == matriz[0, 0] && matriz[2, 0] != '.' && matriz[1, 0] == '.'))
                         {
                             matriz[1, 0] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,0");
                             Pc();
                         }
                         else if ((matriz[2, 0] == matriz[2, 2] && matriz[2, 0] != '.' && matriz[2, 1] == '.'))
                         {
                             matriz[2, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 2,1");
                             Pc();
                         }
                         else if ((matriz[0, 2] == matriz[2, 2] && matriz[0, 2] != '.' && matriz[1, 2] == '.'))
                         {
                             matriz[1, 2] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,2");
                             Pc();
                         }
                         else if ((matriz[0, 0] == matriz[0, 2] && matriz[0, 0] != '.' && matriz[0, 1] == '.'))
                         {
                             matriz[0, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 0,1");
                             Pc();
                         }
                         else
@@ -567,73 +567,73 @@ namespace ConsoleAppAula11
                         else if ((matriz[2, 0] == matriz[0, 0] && matriz[2, 0] != '.' && matriz[1, 0] == '.'))
                         {
                             matriz[1, 0] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,0");
                             Pc();
                         }
                         else if ((matriz[2, 0] == matriz[2, 2] && matriz[2, 0] != '.' && matriz[2, 1] == '.'))
                         {
                             matriz[2, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 2,1");
                             Pc();
                         }
                         else if ((matriz[0, 2] == matriz[2, 2] && matriz[0, 2] != '.' && matriz[1, 2] == '.'))
                         {
                             matriz[1, 2] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,2");
                             Pc();
                         }
                         else if ((matriz[0, 0] == matriz[0, 2] && matriz[0, 0] != '.' && matriz[0, 1] == '.'))
                         {
                             matriz[0, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 0,1");
                             Pc();
                         }
                         else if ((matriz[2, 1] == matriz[1, 1] && matriz[2, 1] != '.' && matriz[0, 1] == '.'))
                         {
                             matriz[0, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 0,1");
                             Pc();
                         }
                         else if ((matriz[0, 1] == matriz[1, 1] && matriz[0, 1] != '.' && matriz[2, 1] == '.'))
                         {
                             matriz[2, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 2,1");
                             Pc();
                         }
                         else if ((matriz[0, 1] == matriz[2, 1] && matriz[0, 1] != '.' && matriz[1, 1] == '.'))
                         {
                             matriz[1, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,1");
                             Pc();
                         }
                         else if ((matriz[2, 0] == matriz[1, 1] && matriz[2, 0] != '.' && matriz[0, 2] == '.'))
                         {
                             matriz[0, 2] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 0,2");
                             Pc();
                         }
                         else if ((matriz[0, 2] == matriz[2, 0] && matriz[0, 2] != '.' && matriz[1, 1] == '.'))
                         {
                             matriz[1, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,1");
                             Pc();
                         }
                         else if ((matriz[1, 0] == matriz[1, 1] && matriz[1, 0] != '.' && matriz[1, 2] == '.'))
                         {
                             matriz[1, 2] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,2");
                             Pc();
                         }
                         else if ((matriz[1, 2] == matriz[1, 1] && matriz[1, 2] != '.' && matriz[1, 0] == '.'))
                         {
                             matriz[1, 0] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,0");
                             Pc();
                         }
                         else if ((matriz[1, 0] == matriz[1, 2] && matriz[1, 2] != '.' && matriz[1, 1] == '.'))
                         {
                             matriz[1, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,1");
                             Pc();
                         }
                         else if ((matriz[0, 0] == matriz[1, 1] && matriz[0, 0] != '.' && matriz[2, 2] == '.'))
@@ -645,13 +645,13 @@ namespace ConsoleAppAula11
                         else if ((matriz[2, 2] == matriz[1, 1] && matriz[2, 2] != '.' && matriz[0, 0] == '.'))
                         {
                             matriz[0, 0] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 0,0");
                             Pc();
                         }
                         else if ((matriz[0, 0] == matriz[2, 2] && matriz[0, 0] != '.' && matriz[1, 1] == '.'))
                         {
                             matriz[1, 1] = 'O';
-                            Console.WriteLine("O computador jogou na posicao 2,2");
+                            Console.WriteLine("O computador jogou na posicao 1,1");
                             Pc();
                         }
 
